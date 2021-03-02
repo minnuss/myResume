@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume CV Ponjevic Goran</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- BOX ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav_logo">Goran</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home'></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i> Profile
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i> Education
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i> Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i> Experience
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#references" class="nav__link">
+                            <i class='bx bx-link-external nav__icon'></i> References
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- elements to be generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!-- HOME -->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="img/me3.jpg" alt="" srcset="" class="home__img">
+
+                            <h1 class="home__title">PONJEVIC <b>GORAN</b></h1>
+                            <h3 class="home__proffesion">Web developer</h3>
+
+                            <!-- button for CV in PDF for mobile-->
+                            <div>
+                                <a download="" href="pdf/" class="home__button-movil">Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i> Beograd, Novi Beograd
+                            </span>
+
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon'></i> ponjevic.goran@hotmail.com
+                            </span>
+
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i> 066/166-006
+                            </span>
+                        </div>
+                    </div>
+
+
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and dwnload pdf. For desktop only -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                </section>
+
+                <!-- SOCIAL -->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/in/goran-ponjevic-912045206/" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i> /goran-ponjevic-912045206
+                        </a>
+
+                        <a href="https://github.com/minnuss" class="social__link">
+                            <i class='bx bxl-github social__icon'></i> /minnuss
+                        </a>
+
+                        <a href="https://www.facebook.com/goran.ponjevic.7" class="social__link">
+                            <i class='bx bxl-facebook-circle social__icon'></i> /goran.ponjevic.7
+                        </a>
+                    </div>
+                </section>
+
+                <!-- PROFILE -->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                        voluptate error ipsam voluptatum consequuntur enim consectetur incidunt harum dolores! Enim
+                        obcaecati vel iure, quos expedita deleniti repellendus. Consequatur, possimus repellat?</p>
+                </section>
+
+                <!-- EDUCATION -->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Masinski Tehnicar</h3>
+                                <span class="education__studies">Tehnička škola „Novi Beograd“</span>
+                                <span class="education__year">1997 - 2000</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SKILLS AND LANGUAGES -->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Html
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>CSS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Sass
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>JavaScript
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Git
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>SEO on page
+                            </li>
+                        </ul>
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>MS Navision
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Ubuntu
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>JIRA
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+            <div class="resume__right">
+                <!-- EXPERIENCE -->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">ADMINISTRATION & IT SUPPORT</h3>
+                                <span class="experience__company">From 2005 to 2021 | Fortuna Int.</span>
+                                <p class="experience__description">Worked in MS Dynamics Navision, creating and
+                                    inserting data, processing orders, making offers, taking care of goods logistics.
+                                    Troubleshooting IT problems, hardware, software, network. Installing and maintaining
+                                    computers and other devices in company.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">MILITARY SERVICE</h3>
+                                <span class="experience__company">From 2002 to 2003 | Prištinski korpus</span>
+                                <p class="experience__description">Military service in Prištinski korpus, city of
+                                    Vranje.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- last line span disabled -->
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">PC HARDWARE TRADING</h3>
+                                <span class="experience__company">From 2001 to 2002 | Cedens Co.</span>
+                                <p class="experience__description">Selling pc components, assembling desktop PCs,
+                                    testing hardware, installing OS, drivers and software.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- REFERENCES -->
+                <section class="references section" id="references">
+                    <h2 class="section-title">References</h2>
+                    <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Selling natural sweets</span>
+                            <h3 class="references__title">koliko.rs</h3>
+                            <ul class="references__contact">
+                                <li>Email: quince@koliko.rs</li>
+                            </ul>
+                        </div>
+
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Music studio</span>
+                            <h3 class="references__title">ponksound.rs</h3>
+                            <ul class="references__contact">
+                                <li>Email: info@ponksound.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- LANGUAGES -->
+                <section class="language section">
+                    <h2 class="section-title">Languages</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>English
+                            </li>
+                        </ul>
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Serbian
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- INTERESTS -->
+                <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-headphone interests__icon'></i>
+                            <span class="interests__name">Music</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-dumbbell interests__icon'></i>
+                            <span class="interests__name">Fitness</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxs-camera-movie interests__icon'></i>
+                            <span class="interests__name">Movies</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-network-chart interests__icon'></i>
+                            <span class="interests__name">Networking</span>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- SCROLL TOP -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop_icon'></i>
+    </a>
+
+    <script src="html2pdf.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
