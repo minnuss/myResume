@@ -387,6 +387,10 @@ img {
     margin-right: .25rem;
 }
 
+.email {
+    color: var(--text-color);
+}
+
 .home__button-movil {
     display: inline-block;
     border: 2px solid var(--text-color);
@@ -532,6 +536,10 @@ img {
 
 .references__title {
     font-size: var(--h3-font-size);
+}
+
+.references__title a {
+    color: var(--text-color);
 }
 
 /* INTERESTS */
