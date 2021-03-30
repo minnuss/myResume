@@ -370,6 +370,7 @@ img {
 .home__proffesion {
     font-size: var(--normal-font-size);
     margin-bottom: var(--mb-1);
+    /* visibility: hidden; */
 }
 
 .home__address {
